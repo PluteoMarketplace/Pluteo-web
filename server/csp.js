@@ -131,6 +131,6 @@ module.exports = (reportUri, enforceSsl, reportOnly) => {
   // See: https://helmetjs.github.io/docs/csp/
   return helmet.contentSecurityPolicy({
     directives,
-    reportOnly,
+    reportOnly: false,
   });
 };
