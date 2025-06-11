@@ -81,8 +81,10 @@ const defaultDirectives = {
     'www.googletagmanager.com',
     '*.google-analytics.com',
     'js.stripe.com',
+    'pluteo-web.onrender.com',
   ],
   styleSrc: [self, unsafeInline, 'fonts.googleapis.com', 'api.mapbox.com'],
+manifestSrc: [self],
 };
 
 /**
