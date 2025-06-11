@@ -98,7 +98,7 @@ if (cspEnabled) {
 
   // In Helmet 4,supplying functions as directive values is not supported.
   // That's why we need to create own middleware function that calls the Helmet's middleware function
-  const reportOnly = CSP === 'report';
+  const reportOnly = false;
   app.use((req, res, next) => {
     csp(cspReportUrl, USING_SSL, reportOnly)(req, res, next);
   });
