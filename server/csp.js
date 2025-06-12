@@ -82,10 +82,10 @@ const defaultDirectives = {
     '*.google-analytics.com',
     'js.stripe.com',
     'pluteo-web.onrender.com',
-'https://pluteo-web.onrender.com/static/scripts/mapbox/mapbox-sdk.min.js',
+'https://pluteo.com.au/static/scripts/mapbox/mapbox-sdk.min.js',
   ],
   styleSrc: [self, unsafeInline, 'fonts.googleapis.com', 'api.mapbox.com'],
-manifestSrc: [self, 'https://pluteo-web.onrender.com/site.webmanifest'],
+manifestSrc: [self, 'https://pluteo.com.au/site.webmanifest'],
 };
 
 /**
