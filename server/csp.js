@@ -19,7 +19,7 @@ const assetCdnBaseUrl = process.env.REACT_APP_SHARETRIBE_SDK_ASSET_CDN_BASE_URL;
 // additions within the exported function in the bottom of this file.
 const defaultDirectives = {
   baseUri: [self],
-  defaultSrc: [self],
+  defaultSrc: [self, 'https://pluteo.com.au'],
   childSrc: [blob],
   connectSrc: [
     self,
